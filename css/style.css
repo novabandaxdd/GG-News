@@ -1,0 +1,463 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #1d1c1c;
+    
+}
+
+a { text-decoration: none;}
+
+ul {list-style: none;}
+
+img {max-width: 100%;}
+
+/* Cabecalho */
+
+.cabecalho{
+    width: 100%;
+    margin-bottom: 0.2%;
+    float: left;
+    padding: 2% 4%;
+    box-shadow: 0.1em 0.1em 0.2em rgb(20, 20, 20);
+
+}
+
+.logo{
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(../img/icon.png) center center/56px no-repeat;
+    font-size: 0;
+    
+}
+
+.btn-me{
+    width: 56px;
+    height: 56px;
+    float: right;
+    text-align: center;
+    color:#fff;
+    border-radius: 56px;
+    cursor: pointer;
+    background: linear-gradient(to right, #e20d0dd3, #000000);
+
+}
+
+/* Menu */
+
+.menu{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.btn-close{
+    font-size: 1.5em;
+    color: #fff;
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0 0;
+
+}
+
+.menu ul{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+.menu li{
+    padding: 1.5%;
+
+}
+
+.menu li a{
+    font-size: 2em;
+    color: #fff;
+    padding: 1.5% 3%;
+
+}
+
+.menu li a:hover{
+    border: 1px solid;
+    color: #e20d0dd3;
+
+}
+
+/* Banner */
+
+.banner{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 5% 4%;
+    background-image: url(../img/banner.jpg);
+    box-shadow: 0.1em 0.1em 0.2em rgb(20, 20, 20);
+    
+}
+
+.title h2{
+    font-size: 2em;
+    color: #fff;
+    font-weight: 700;
+
+}
+
+.title h3{
+    font-size: 1.5em;
+    color: #fff;
+
+}
+
+.title{
+    width: 100%;
+}
+
+.buttons{
+    width: 100%;
+    margin-top: 2%;
+
+}
+
+.buttons i{
+    float: right;
+   
+}
+
+.btn{
+    width: 100%;
+    font-size: 1.5em;
+    text-align: left;
+    cursor: pointer;
+    padding: 5%;
+    border-radius: 10px;
+
+}
+
+.btn-cadastrar{
+    background-color: #fff;
+    color: #130400;
+}
+
+.btn-sobre{
+    background-color:  #990202;
+    color: #fff ;
+    margin-top: 2%;
+
+}
+
+/* Noticiais */
+
+.noticias{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+
+}
+
+.noticia{
+    width: 100%;
+    text-align: left;
+    border-radius: 7px;
+    margin-bottom: 3%;
+
+}
+
+.noticia img{
+    border-radius: 7px 7px 7px 7px;
+
+}
+
+.inner{
+    padding: 7%;
+
+}
+
+.inner a{
+    font-size: 2em;
+    color: #5a0505;
+    font-weight: 700;
+    text-shadow: 0.1em 0.1em 0.2em black;
+
+}
+
+.inner h4 {
+    font-size: 1.4em;
+    color: #6d0404;
+    margin-top: 2%;
+    line-height: 1.5em; 
+}
+
+.inner p{
+    margin-top: 3%; 
+    color: #817e7d;
+    line-height: 1.5em;
+
+}
+
+/* Newsletter */
+
+.newsletter{
+    width: 100%;
+    float: left;
+    text-align: center;
+    padding: 3% 4%;
+   
+
+
+}
+
+.newsletter h2{
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 700;
+}
+
+.newsletter form{
+    margin-top: 2%;
+}
+
+.newsletter input{
+    background-color: #1f1c1c;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 5%;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.newsletter button{
+    width: 100%;
+    background-color: #fff;
+    color:#130400;
+    padding: 1%;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 2%;
+    text-shadow:  0.1em 0.1em 0.2em rgb(110, 88, 88);
+
+}
+
+.newsletter button a:hover{
+    box-shadow: 0.1em 0.1em 0.2em rgb(110, 88, 88);
+
+}
+
+/* Rodape */
+
+.rodape{
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+   
+}
+
+.social_icones img{
+    font-size: 1.5em;
+    color: rgba(#fff, #fff, #fff, 0.7);
+    margin-right: 3%;
+    width: 10%;
+    
+    
+}
+
+.social_icones img:last-child{
+    margin-right: 0;
+}
+
+.copyright{
+    margin-top: 2%;
+    color: rgba(255, 255, 255, 0.7); 
+
+}
+
+/* Mobile/Smarthphones */
+
+@media screen and (min-width: 480px){
+
+    
+
+    .logo{
+        width: 214px;
+        background: url(../img/logo2.png) center center/214px no-repeat;
+    }
+
+    .btn{
+        width: 100%;
+        font-size: 2.0em;
+    }
+}
+
+/* Mobile/Smarthphones */
+
+@media screen and (min-width: 768px){
+
+    .noticia {
+        width: 49%;
+        float: left;
+        margin-right: 2%;
+        
+    }
+
+    .noticia:nth-child(2){
+        margin-right: 0;
+
+    }
+
+    .newsletter h2{
+        font-size: 2em;
+
+    }
+
+    .newsletter h3{
+        font-size: 1.5em;
+
+    }
+
+    .newsletter input{
+        width: 70%;
+        padding: 2%;
+        float: left;
+        margin-right: 1%;
+
+    }
+
+    .newsletter{
+        width: 29%;
+        padding: 2%;
+        float: right;
+        margin-top: 0;
+
+    }
+}
+
+/* Dispositivos medios */
+
+@media screen and (min-width: 960px){
+    .title{
+        width: 70%;
+        float: left;
+        text-align: left;
+
+    }
+
+    .title h2{
+        font-size: 3em;
+
+    }
+
+    .title h3{
+        font-size: 2em;
+        
+    }
+    
+    .buttons{   
+        width: 30%;
+        float: right;
+        margin-top: 0;
+        
+    }
+
+    .noticia{
+        width: 100%;
+
+    }
+
+    .noticia:nth-child(2){
+        margin-right: 0%;
+
+    }
+
+    .noticia:nth-child(3){
+        margin-right: 0;
+
+    }
+
+    .newsletter{
+        width: 100%;
+        float: none;
+    }
+
+    .newsletter input{
+        width: 60%;
+        float: none;
+
+    }
+
+    .newsletter button{
+        width: 40%;
+        float: none;
+
+    }
+}
+    
+/* Dispositivos Largos */
+
+    @media screen and (min-width:1280px){
+        .btn-me{
+            display:none;
+        
+        }
+
+        .btn-close{
+            display: none;
+
+        }
+
+        .menu{
+            width: auto;
+            height: 56px;
+            float: right;
+            line-height: 56px;
+            float: right;
+            background-color: #1f1c1c;
+            display: block;
+            position: static;
+            border-radius: 7px 7px 7px 7px;
+            display: block !important;
+
+        }
+
+        .menu li{
+            padding: 0;
+            float: left;
+            
+        }
+
+        .menu li a{
+            color: #ffffff;
+            font-size: 1em;
+            padding: 15px;
+
+        }
+
+        .menu li a:hover{
+            border: none;
+            color: #7e0909
+
+        }
+
+        .newsletter button{
+            width: 40%;
+            float: none;
+    
+        }
+    }

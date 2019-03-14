@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <title>Site Responsivo</title>
+            <meta name="descripition" content="Oficina especializada em alinhamento e balanceamento">
+            <meta name="keywords" content="Oficina, Alinhamento, Balanceamento">
+            <meta name="robots" content="index, follow">
+            <meta name="author" content="Raul de Sousa">
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+            <link rel="icon" href="img/icon.png">
+
+    </head>
+<body>
+        <header class="cabecalho">
+            <a href="index.html"><h1 class="logo"> Borracharia do Williams </h1> </a>
+            <button class="btn-me"><i class="fas fa-align-justify fa-lg"></i></button>
+            <nav class="menu">
+                <a class="btn-close"><i class="fa fa-times"></i></a>
+                <ul>
+                    <li><a href="#"> Inicio </a></li>
+                    <li><a href="#"> Serviços </a></li>
+                    <li><a href="#"> Quem Somos </a></li>
+                    <li><a href="#"> Galeria </a></li>
+                    <li><a href="#"> Contato </a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="banner">
+            <div class="title">
+                <h2> GG Noticias </h2>
+                <h3> Site dedicado em sempre atualizar nossos usuários<br> com as últimas noticias do jogo Dota 2.</h3>
+            </div>
+        
+            <div class="buttons">
+                <button class="btn btn-cadastrar"> Cadastrar<i class="fa fa-arrow-circle-right"></i> </button>
+                <button class="btn btn-sobre"> Sobre<i class="fa fa-question-circle"></i> </button>
+            </div>
+        </div>
+        <main class="noticias">
+            <article class="noticia">
+                <a href="#"><img src="img/noticias.png" alt="Nova Atualização do Patch"></a>
+                <div class="inner">
+                    <a href="#"> Nota de Atualização </a>
+                        <h4> Novo Patch </h4>
+                        <p>Atualização de jogabilidade 7.20</p>
+
+                </div>
+            </article>
+
+            <article class="noticia">
+                    <a href="#"><img src="img/theinternet.jpg" alt="The International Convida Você"></a>
+                    <div class="inner">
+                        <a href="#"> The International<br> </a>
+                            <h4> 20 a 25 de agosto, 2019 </h4>
+                            <p>Vê o torneio todo em direto através do Twitch ou da transmissão no Steam.
+                               Graças à cobertura completa do evento disponível nos streams,
+                               vais ficar a par de toda a ação onde quer que estejas. </p>
+    
+                    </div>
+                </article>
+        </main>
+        
+        <section class="newsletter">
+            <h2> Receba notificações de atualições e campeonatos </h2>
+            <form>
+                <input type="email" name="email" placeholder="Seu e-mail">
+                <button> Enviar </button>
+            </form>
+        </section>
+
+        <footer class="rodape">
+            <div class="social_icones">
+                <a href="#"><img src="img/steam.png"></i></a>
+                <a href="#"><img src="img/twitch.png"></i></a>
+                <a href="#"><img src="img/twitter.png"></i></a>
+                <a href="#"><img src="img/facebook.png"></i></a>
+               
+            </div>
+            <p class="copyright">
+                Copyright © Raul Desenvolvimento.Todos os Direitos Reservados. 
+
+            </p>
+        </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>
+            $(".btn-me").click(function(){
+                $(".menu").show();
+            });
+            $(".btn-close").click(function(){
+                $(".menu").hide();
+            });
+        </script>
+
+
+
+
+</body>
+</html>
